@@ -8,8 +8,10 @@
     <classes>
       <class name="com.qa.Dream11.testcases.RegressionPWA">
         <methods>
+          <include name="registerUser"/>
           <include name="start"/>
           <include name="close"/>
+          <include name="selectRound"/>
           <include name="createTeam"/>
         </methods>
       </class> <!-- com.qa.Dream11.testcases.RegressionPWA -->
